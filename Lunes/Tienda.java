@@ -1,20 +1,18 @@
-public class Tienda{ //Clase tipo tienda que contiene diversos atributos.
+public class Tienda{
 	private String direccion;//dirección de la tienda
-	private float dinero; //dinero de la tienda
-	static int contProductos=0; //productos, contador
-	static int contEmpleados=0; //empleados
-	static int numeroTiendas=0; //tiendas, contador
-	static int totaldinero=0; //total de dinero
+	private float dinero; //dinero con el que cuenta la sucursal
+	static int contProductos=4; //productos
+	static int contEmpleados=4; //empleados
+	static int numeroTiendas=0; //tiendas
+	static int totalDinero=0; //dinero total de todas las tiendas
 
 	public Tienda(String direccion,float dinero){
 		this.direccion = direccion;
 		this.dinero = dinero;
 		numeroTiendas++;
+		totalDinero+=dinero;
 	}
 
-	public int numeroEmpleados(){
-		
-	}
 
 	public String getDireccion(){
 		return direccion;
@@ -24,23 +22,19 @@ public class Tienda{ //Clase tipo tienda que contiene diversos atributos.
 		this.direccion = direccion;
 	}
 
-	public void setDinero(int dinero){
+	public void setDinero(float dinero){
 		this.dinero = dinero;
 	}
 
-	public int getDinero(){
+	public float getDinero(){
 		return dinero;
 	}
 
-	
-
-	public int getcontProductos(){
-		return producto;
+	public int getContProductos(){
+		return contProductos;
 	}
 
-	
-
-	public int getcontEmpleados(){
-		return empleado;
+	public int getEmpleado(){
+		return contEmpleados;
 	}
 }
