@@ -1,10 +1,10 @@
-public class Main{
+public class Main{ //clase principal
 	public static void main(String[] args) {
 		
 		//Para la Sucursal 1
 		Tienda sucursal1 = new Tienda("San Bu",560000);
 		//Para sus empleados
-		Empleado empleado1 = new Empleado("Gerente","Dante",2000);
+		Empleado empleado1 = new Empleado("Gerente","Dante",2000); //empleado1 de la clase Empleado
 		Empleado empleado2 = new Empleado("Supervisor","Leo",1000);
 		Empleado empleado3 = new Empleado("Cajero","Nata",56);
 		Empleado empleado4 = new Empleado("Aguador","Dieo",2.5);
