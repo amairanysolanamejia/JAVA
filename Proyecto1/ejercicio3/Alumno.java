@@ -5,7 +5,7 @@
 * @author Casillas Muñoz, Diego Armando
 * @author Solana Mejía, Haydee Amairany
 */
-
+//javadoc -d cartenahtlm archivo.java
 public interface Alumno{
 	/**
 	*Método cabstracto: copiar, para cada alumno de las diferentes facultades será distinto.

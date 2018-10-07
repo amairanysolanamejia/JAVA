@@ -1,11 +1,11 @@
+
+
+import java.util.Scanner;
 /**
 * @author Casillas, Diego
 * @author Solana, Amairany
-*@ En la clase "Fracciones" se permite reducir una fracción a su mínima expesiń posible.
+*En la clase "Fracciones" se permite reducir una fracción a su mínima expesiń posible.
 */
-
-import java.util.Scanner;
-
 public class Fracciones {
 
 	public static void main(String[] args) {
